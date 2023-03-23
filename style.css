@@ -4,181 +4,268 @@
 	padding: 0;
 	
 }
+body{
+	font-family: Alkatra ;
+}
 a{
 	text-decoration: none;
-	color: #FFFF;
+	color: #fff;
+
 }
-.header{
-	background: #151515;
-}
-body{
-	font-family: Roboto;
-	overflow-x: hidden;
+.one{
+	width: 100%;
+	background-image: url(image/01\ 1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .container{
-	max-width: 1181px;
+	max-width: 1110px;
 	margin: 0 auto;
-
-	
 }
 .container-header{
 	display: flex;
-	align-items: center;
+	flex-wrap: wrap;
 	justify-content: space-between;
-}
-.sapn-logo{
-	color:#FF0000;
-	font-weight: 400;
-    font-size: 25px;	
-}
-.logo{
-	padding: 17px 0px 19px 4px
-	
-}
-.link-logo{
-	color: #FFFF;
-	font-weight: 400;
-    font-size: 25px;
-}
-.littel-text-logo{
-	color: #FFFF;
-	font-weight: 400;
-    font-size: 15px;
-	padding: 0px 0px 0px 19px;
+	align-items: center;
 
 }
-.block-menu{
-margin-left: 82px;
+.Logo{
+	min-height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-right: 22px;
 }
-.menu{
-	font-family: 'Tenor Sans';
+
+.link-logo{
+	padding-left: 22px;
+	font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+	color: #fff;
+}
+.number-link{
+	border: 1px solid #fff;
+	border-radius: 15px;
+	padding: 11px 27px 11px 33px ;
+}
+.phone-link{
+	display: none;
+}
+.right-link{
 	display: flex;
 	flex-wrap: wrap;
 	
 }
-.link-menu{
-	font-family: 'Tenor Sans';
-	font-weight: 400;
-    font-size: 15px;
-    line-height: 18px;
-	padding: 0 37px;
+.link-social-network{
+	padding-left: 22px;
 }
-.link-menu:last-child{
+.header-title{
+	padding-top: 230px;
+}
+.big-title{
+	font-size: 55px;
+    line-height: 120%;
+	color: #181818;
+	
+}
+.paragraph-header{
+	padding-top: 30px;
+	font-size: 34px;
+    line-height: 110%;
+	color: #181818;
+}
+.header-button{
+	padding-top: 65px;
+	padding-bottom: 309px;
+
+}
+.buttons{
+	border-radius: 40px;
+	padding:  23px 47px;
+	border: none;
+	margin-right: 10px;
+	background-color: #fff;
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+.buttons:last-child{
+	margin-right: 0;
+	margin-left: 10px;
+}
+@media(max-width:760px){
+	.right-link{
+		display: none;
+	}
+	.one{
+		width: 100%;
+		background-image: url(image/Rectangle\ 5.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.container{
+		padding: 0px 29px;
+	}
+	.header-title{
+		padding-top: 60px;
+	}
+	.big-title{
+		font-weight: 400;
+        font-size: 30px;
+        line-height: 110%;
+		color: #fff;
+	}
+	.phone-link{
+		display: block;
+	}
+	.paragraph-header{
+		font-weight: 400;
+        font-size: 20px;
+        line-height: 110%;
+		color: #fff;
+	}
+	.buttons{
+		margin-right: 17.5px;
+		font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+	}
+	.buttons:last-child{
+		margin-right: 0;
+		margin-left: 17.5px;
+	}
+}
+.section-two{
+	width: 100%;
+	background-color: #fff;
+}
+.block-menu-title{
+	
+	padding: 70px 0px 15px 0px ;
+}
+
+.menu-titles{
+display: flex;
+font-weight: 400;
+font-size: 38px;
+line-height: 110%;
+}
+
+.tex-foto{
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+.paragraph-main{
+	padding-top: 28px;
+	padding-left: 30px;
+	font-weight: 400;
+     font-size: 18px;
+    line-height: 140%;
+}
+
+.paragraph-main:hover{
+	background-color:#2B59C3;
+	opacity: 0.9;
+	border-radius: 5px;
+}
+.paragraph-main:first-child{
+padding-top: 0px;
+}
+.br{
+	padding-top: 10px;
+}
+@media(max-width:760px){
+	.tex-foto{
+		flex-wrap: wrap;
+	}
+	.block-menu-title {
+		padding: 56px 0px 15px 0px;
+	}
+	.paragraph-main{
+		padding-left: 0px;
+	}
+	.paragraph-main:first-child{
+		padding-top: 30px;
+		}
+		.kartinka{
+			width: 100%;
+		}
+		.numbers{
+			flex-wrap: wrap;
+		}
+		.number {
+			padding-right: 68px;
+		}
+		.rak{
+			padding-right: 0px;
+			padding-bottom: 37px ;
+		}
+		.rak:last-child{
+			padding-bottom: 0px;
+		}
+		.name-and-logo{
+			padding-top: 90px;
+		}
+		.big-titles{
+			font-weight: 400;
+			font-size: 30px;
+			line-height: 110%;
+			color: #181818;
+		}
+		.numbers{
+			padding-top: 52px;
+		}
+}
+.name-and-logo{
+	padding-top: 120px;
+}
+.numbers{
+	padding-top: 40px;
+	display: flex;
+	
+	
+}
+.menu-title{
+	display: flex;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 110%;
+	}
+.number{
+	
+	font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+}
+.rak{
+	display: flex;
+	padding-right: 128px;
+}
+.rak:last-child{
 	padding-right: 0px;
 	
 }
-
-.link-menu:hover{
-	color: #FF0000;
-	
-	border-bottom: 1px dotted #FF0000;
-}
-.block-menu{
-	display: flex;
-	flex-wrap: wrap;
-}
-.tel{
-    margin-left: 86px;
-	margin-top: -5px;
-
-}
-.numder{
-	font-family: 'Monsserat';
-	font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-	margin-top: -5px;
-}
-.link-menu-last{
-	font-family: 'Tenor Sans';
+.lower-text{
+    padding-top: 22px;
 	font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 130%;
+}
+.end-text{
+	margin-top: 16px;
+	font-weight: 400;
+    font-size: 14px;
     line-height: 18px;
-	margin-left: 71px;
-	
 }
-.link-menu-last:hover{
-	text-decoration: underline;
+.tex-foto:last-child{
+	flex-direction: row-reverse;
 }
-.burger-menu{
-	display: none;
+.tex-foto:last-child,.paragraph-main{
+	padding-left: 0px;
 }
-@media(max-width:760px){
-
-	.container{
-		padding: 0px 13px 0px 12px;
-	}
-	.menu{
-		display: none;
-	}
-	.link-menu-last{
-		display: none;
-	}
-	.container-header{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-	.tel{
-		margin-left: 0px;
-		margin-top:-5px;
-	
-	}
-	.burger-menu{
-		display: block;
-	}
-	.block-menu{
-		margin-left: 0px;
-		}
-}
-.main{
-	background: #010101;
-}
-.foto{
-	
-	margin-left: 32%;
-}
-.title{
-	font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 144.6%;
-	color: #FFFF;
-}
-.span-title{
-	color: #FF0000;
-}
-.block-title{
-	position: absolute;
-	padding-top: 140px;
-}
-.nav-conteiner{
-	display: flex;
-	position: relative;
-}
-.paragraph-title{
-	padding: 64px 0px 91px 0px;
-	font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-	color: #FFFF;
-}
-.orange-button{
-	max-width: 352px;
-	background-color: #FF0000;
-	color: white;
-	padding: 19px 53px;
-
-}
-
-@media(max-width:760px){
-	.block-title{
-		padding-top: 31px;
-	}
-	.paragraph-title{
-		padding: 20px 0px 46px 0px;
-	}
+.kartinka{
+	padding-left: 0px;
+	padding-right: 30px;
 }
