@@ -105,7 +105,7 @@ a{
 		background-size: cover;
 	}
 	.container{
-		margin: 0;
+		
 		padding: 0px 25px;
 	}
 	.header-title{
@@ -127,14 +127,14 @@ a{
 		color: #fff;
 	}
 	.buttons{
-		margin-right: 17.5px;
+		margin-right: 10px;
 		font-weight: 400;
         font-size: 15px;
         line-height: 140%;
 	}
 	.buttons:last-child{
 		margin-right: 0;
-		margin-left: 17.5px;
+		margin-left: 10px;
 	}
 }
 .section-two{
