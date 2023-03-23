@@ -78,7 +78,7 @@ a{
 .header-button{
 	padding-top: 65px;
 	padding-bottom: 309px;
-	display: flex;
+	
 
 }
 .buttons{
@@ -100,10 +100,13 @@ a{
 		display: none;
 	}
 	.one{
-		width: 100%;
 		background-image: url(image/Rectangle\ 5.png);
+		height: 100vh;
+		object-position: right;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position: right;
+		
 	}
 	.container{
 		
@@ -128,13 +131,19 @@ a{
 		color: #fff;
 	}
 	.buttons{
-		margin-right: 10px;
+		
 		font-weight: 400;
         font-size: 15px;
         line-height: 140%;
+		margin-top: 20px;
+	}
+	.buttons:first-child{
+		margin-top: 0px;
 	}
 	.header-button{
-		display: flex;
+		/* display: flex;
+		flex-wrap: wrap; */
+		
 	}
 	.buttons:last-child{
 		margin-right: 0;
