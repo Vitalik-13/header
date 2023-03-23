@@ -94,7 +94,7 @@ a{
 	margin-right: 0;
 	margin-left: 10px;
 }
-@media(max-width:760px){
+@media(max-width:720px){
 	.right-link{
 		display: none;
 	}
@@ -105,7 +105,8 @@ a{
 		background-size: cover;
 	}
 	.container{
-		padding: 0px 29px;
+		max-width: 510px;
+		padding: 0px 25px;
 	}
 	.header-title{
 		padding-top: 60px;
@@ -141,8 +142,17 @@ a{
 	background-color: #fff;
 }
 .block-menu-title{
-	
+	display: flex;
 	padding: 70px 0px 15px 0px ;
+}
+.block-menu-title:last-child{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.big-titles{
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 100%;
 }
 
 .menu-titles{
@@ -159,11 +169,12 @@ line-height: 110%;
 }
 .paragraph-main{
 	padding-top: 28px;
-	padding-left: 30px;
+	
 	font-weight: 400;
      font-size: 18px;
     line-height: 140%;
 }
+
 
 .paragraph-main:hover{
 	background-color:#2B59C3;
@@ -176,7 +187,7 @@ padding-top: 0px;
 .br{
 	padding-top: 10px;
 }
-@media(max-width:760px){
+@media(max-width:720px){
 	.tex-foto{
 		flex-wrap: wrap;
 	}
@@ -228,7 +239,6 @@ padding-top: 0px;
 	
 }
 .menu-title{
-	display: flex;
 	font-weight: 400;
 	font-size: 38px;
 	line-height: 110%;
@@ -262,8 +272,12 @@ padding-top: 0px;
 .tex-foto:last-child{
 	flex-direction: row-reverse;
 }
-.tex-foto:last-child,.paragraph-main{
+.many-paragraphs{
+	padding-left: 30px;
+}
+.many-paragraphs:last-child{
 	padding-left: 0px;
+	padding-right: 30px;
 }
 .kartinka{
 	padding-left: 0px;
