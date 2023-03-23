@@ -105,7 +105,7 @@ a{
 		object-position: right;
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: right;
+		background-position: left;
 		
 	}
 	.container{
@@ -140,11 +140,7 @@ a{
 	.buttons:first-child{
 		margin-top: 0px;
 	}
-	.header-button{
-		/* display: flex;
-		flex-wrap: wrap; */
-		
-	}
+	
 	.buttons:last-child{
 		margin-right: 0;
 		margin-left: 10px;
