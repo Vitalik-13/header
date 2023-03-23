@@ -78,6 +78,7 @@ a{
 .header-button{
 	padding-top: 65px;
 	padding-bottom: 309px;
+	display: flex;
 
 }
 .buttons{
@@ -131,6 +132,9 @@ a{
 		font-weight: 400;
         font-size: 15px;
         line-height: 140%;
+	}
+	.header-button{
+		display: flex;
 	}
 	.buttons:last-child{
 		margin-right: 0;
