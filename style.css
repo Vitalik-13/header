@@ -9,8 +9,6 @@ body{
 }
 a{
 	text-decoration: none;
-	/* color: #fff; */
-
 }
 .one{
 	width: 100%;
@@ -153,12 +151,11 @@ a{
 }
 .block-menu-title{
 	display: flex;
-	justify-content: flex-end;
 	padding: 70px 0px 15px 0px ;
 }
-.block-menu-title:first-child{
+.block-menu-title:nth-child(2){
 	display: flex;
-	justify-content: flex-start;
+	justify-content: flex-end;
 }
 .big-titles{
 	font-weight: 400;
@@ -176,7 +173,13 @@ line-height: 110%;
 .tex-foto{
 	display: flex;
 	flex-wrap: nowrap;
-	
+	flex-direction: row-reverse;
+}
+.tex-foto:last-child{
+	flex-direction: row
+}
+.tex-foto:nth-child(2){
+	flex-direction: row;
 }
 .paragraph-main{
 	padding-top: 28px;
@@ -189,9 +192,12 @@ line-height: 110%;
 
 .paragraph-main:hover{
 	background-color:#2B59C3;
-	opacity: 0.9;
+	color: #fff;
+	/* opacity: 0.9; */
 	border-radius: 5px;
+	
 }
+
 .paragraph-main:first-child{
 padding-top: 0px;
 }
@@ -280,9 +286,6 @@ padding-top: 0px;
     font-size: 14px;
     line-height: 18px;
 }
-.tex-foto:last-child{
-	flex-direction: row-reverse;
-}
 .many-paragraphs{
 	padding-left: 30px;
 }
@@ -301,7 +304,9 @@ padding-top: 0px;
 .text-and-button{
 	display: flex;
 	flex-wrap: wrap;
+
 }
+
 .text-in-foto4ka{
 	font-weight: 400;
 	font-size: 55px;
@@ -309,18 +314,69 @@ padding-top: 0px;
 	padding-right: 89px;
 }
 .button-in-foto4ka{
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
 	padding: 23px 47px;
 	border: 1px solid #181818;
     border-radius: 40px;
 	background-color: transparent;
+	cursor: pointer;
 }
 .paragraph-in-foto4ka{
 	font-weight: 400;
     font-size: 18px;
     line-height: 140%;
+}	
+
+@media(max-width:1047px){
+	.numbers{
+		flex-wrap: wrap;
+	}
 }
+
+
+.blue-button{
+	
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 174px;
+	padding-top: 54px;
+}
+.blu{
+	padding: 23px 47px;
+	border: 1px solid #fff;
+    border-radius: 40px;
+	background-color: #2B59C3;
+	color: #fff;
+	font-weight: 400;
+    font-size: 26px;
+    line-height: 110%;
+	cursor: pointer;
+}
+
+
 @media(max-width:720px){
 	.paragraph-in-foto4ka{
 		padding: 11px 0px 30px 0px;
 	}
+	.text-and-button{
+		display: flex;
+		justify-content: space-between;
+	}
+	.blue-button{
+		display: flex;
+		flex-wrap: wrap;
+		padding-top: 54px;
+		padding-right: 0px;
+		
+		
+	}
+}
+.littel{
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	display: block;
 }
